@@ -13,7 +13,7 @@ public class Produto {
     @Id
     @GeneratedValue(generator = "UUID")
     private UUID id;
-    @Column(unique = true, length = 50)
+    @Column(unique = true)
     private String nome;
     private BigDecimal preco;
     private String imagem;
